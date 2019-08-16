@@ -1,0 +1,6 @@
+framework module MediastreamTrackeriOS {
+  umbrella header "MediastreamTrackeriOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - MediastreamTrackeriOS (0.1.0)
+
+DEPENDENCIES:
+  - MediastreamTrackeriOS (from `../`)
+
+EXTERNAL SOURCES:
+  MediastreamTrackeriOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MediastreamTrackeriOS: 05137c7bdb598c76b6eea95f03b029c0b455a162
+
+PODFILE CHECKSUM: b10c8289bb153e7e4acbd0f1f0e53a264a92859a
+
+COCOAPODS: 1.7.0
