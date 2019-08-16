@@ -1,0 +1,11 @@
+framework module MediastreamTrackeriOS {
+  umbrella header "MediastreamTrackeriOS.h"
+
+  export *
+  module * { export * }
+}
+
+module MediastreamTrackeriOS.Swift {
+    header "MediastreamTrackeriOS-Swift.h"
+    requires objc
+}

@@ -16,6 +16,7 @@
 		97E31BF054CA848C7E60FB1870CE61D5 /* Pods-MediastreamTrackeriOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AAD691590558BFBBDA2214EF3719671 /* Pods-MediastreamTrackeriOS_Example-dummy.m */; };
 		9811DCA4077F233F83D090FD968C4FAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		A5F5AE119D413F3E41BCCC1DD0665205 /* MediastreamTrackeriOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6735194B9C6918DE2F14CF1047DEE972 /* MediastreamTrackeriOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5C7267D230762320028F31D /* MediastreamTrackeriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C7267C230762320028F31D /* MediastreamTrackeriOS.framework */; };
 		ED214BA71257952999B28E091E153978 /* MediastreamTrackeriOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5802F732EEC8F0E1B6C4DF6B1625B9C /* MediastreamTrackeriOS-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		0C0705FF05A68D734E9EF436CB59193F /* Pods-MediastreamTrackeriOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MediastreamTrackeriOS_Example.modulemap"; sourceTree = "<group>"; };
-		0FF05515BA669EB8052285C6757F822B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0FF05515BA669EB8052285C6757F822B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		14D98386FC4C04841794234A6A43725B /* MediastreamTrackeriOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MediastreamTrackeriOS-prefix.pch"; sourceTree = "<group>"; };
 		1C2E211042B87B43D615B1D2418F6587 /* Pods-MediastreamTrackeriOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MediastreamTrackeriOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		26D9E5DD9564BD40C33EFED2FB3043A5 /* Pods-MediastreamTrackeriOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MediastreamTrackeriOS_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -47,19 +48,19 @@
 		369FB8F30F8B45D39D3C6BB00FCC595B /* Pods-MediastreamTrackeriOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MediastreamTrackeriOS_Tests-umbrella.h"; sourceTree = "<group>"; };
 		377031DA59E4C32CEA05C911CF424FE6 /* Pods-MediastreamTrackeriOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MediastreamTrackeriOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3823DCCB1D5D97FFE366F25967801D93 /* MediastreamTrackeriOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MediastreamTrackeriOS.modulemap; sourceTree = "<group>"; };
-		3C9B9C072A1A5D9FD490755BCF99B850 /* MediastreamTrackeriOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MediastreamTrackeriOS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		42625DFDF15A19B93B965F50C059E7F5 /* Pods_MediastreamTrackeriOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MediastreamTrackeriOS_Example.framework; path = "Pods-MediastreamTrackeriOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DEEEE910940D34C6BAC348272A1B4FE /* MediastreamTrackeriOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MediastreamTrackeriOS.framework; path = MediastreamTrackeriOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		60C6476A228325293AFF8780800DC866 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3C9B9C072A1A5D9FD490755BCF99B850 /* MediastreamTrackeriOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MediastreamTrackeriOS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		42625DFDF15A19B93B965F50C059E7F5 /* Pods_MediastreamTrackeriOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MediastreamTrackeriOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DEEEE910940D34C6BAC348272A1B4FE /* MediastreamTrackeriOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MediastreamTrackeriOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C6476A228325293AFF8780800DC866 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		669C9F64D7CBD15BCC8A5FAE0D5EB8BF /* Pods-MediastreamTrackeriOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MediastreamTrackeriOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6735194B9C6918DE2F14CF1047DEE972 /* MediastreamTrackeriOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MediastreamTrackeriOS-umbrella.h"; sourceTree = "<group>"; };
-		70ECA3F3011BAC8A68A4CC12F2211B11 /* Pods_MediastreamTrackeriOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MediastreamTrackeriOS_Tests.framework; path = "Pods-MediastreamTrackeriOS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70ECA3F3011BAC8A68A4CC12F2211B11 /* Pods_MediastreamTrackeriOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MediastreamTrackeriOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		790084DBADD8A8158E1E3954E5AC585B /* Pods-MediastreamTrackeriOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MediastreamTrackeriOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7AAD691590558BFBBDA2214EF3719671 /* Pods-MediastreamTrackeriOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MediastreamTrackeriOS_Example-dummy.m"; sourceTree = "<group>"; };
 		862393599490C09F6E7F41ED95D2ABCC /* Pods-MediastreamTrackeriOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MediastreamTrackeriOS_Example-umbrella.h"; sourceTree = "<group>"; };
 		926F6E7CA0E3C004231E97C23F156F4A /* Pods-MediastreamTrackeriOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MediastreamTrackeriOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9BFE6499A4D1A6118558E63F6685D409 /* Pods-MediastreamTrackeriOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MediastreamTrackeriOS_Tests-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A57F00004CE764DAA1C81F57BD898EE9 /* Pods-MediastreamTrackeriOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MediastreamTrackeriOS_Tests-dummy.m"; sourceTree = "<group>"; };
 		A9A58732ECDD81415AB7A17E89932621 /* MediastreamTrackeriOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MediastreamTrackeriOS-Info.plist"; sourceTree = "<group>"; };
 		AD8210ABC556F6CDCBAD562D75C68BC2 /* Pods-MediastreamTrackeriOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MediastreamTrackeriOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -67,6 +68,7 @@
 		C880EFC7B81154C6CF400B205898108E /* Pods-MediastreamTrackeriOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MediastreamTrackeriOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D5802F732EEC8F0E1B6C4DF6B1625B9C /* MediastreamTrackeriOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MediastreamTrackeriOS-dummy.m"; sourceTree = "<group>"; };
 		DD4378C55563B11DD1DFD08239FCC0B8 /* Pods-MediastreamTrackeriOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MediastreamTrackeriOS_Tests.modulemap"; sourceTree = "<group>"; };
+		E5C7267C230762320028F31D /* MediastreamTrackeriOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MediastreamTrackeriOS.framework; sourceTree = "<group>"; };
 		E9801E45957B853C36184A8C7C1E585B /* MediastreamTrackeriOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MediastreamTrackeriOS.xcconfig; sourceTree = "<group>"; };
 		ED18A1551CA9265AB87112678457C63F /* Pods-MediastreamTrackeriOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MediastreamTrackeriOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5C7267D230762320028F31D /* MediastreamTrackeriOS.framework in Frameworks */,
 				97A63B74C6C521111E5D108D60B13724 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +142,7 @@
 		840F46BB73D10298877027D56B4E6DDA /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				E5C7267C230762320028F31D /* MediastreamTrackeriOS.framework */,
 				0FF05515BA669EB8052285C6757F822B /* LICENSE */,
 				3C9B9C072A1A5D9FD490755BCF99B850 /* MediastreamTrackeriOS.podspec */,
 				60C6476A228325293AFF8780800DC866 /* README.md */,
@@ -588,8 +592,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

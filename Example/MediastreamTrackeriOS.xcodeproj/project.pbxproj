@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		1FA5211EE9F679675535118C /* Pods-MediastreamTrackeriOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediastreamTrackeriOS_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MediastreamTrackeriOS_Tests/Pods-MediastreamTrackeriOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		376B8421125C19C4978FC19B /* Pods_MediastreamTrackeriOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MediastreamTrackeriOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		386C40DEE61446636C305DF3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		3E53411A1961D2A7F9933166 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		386C40DEE61446636C305DF3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3E53411A1961D2A7F9933166 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4F8E2AAF39D412725DAB9B92 /* Pods-MediastreamTrackeriOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediastreamTrackeriOS_Example.debug.xcconfig"; path = "Target Support Files/Pods-MediastreamTrackeriOS_Example/Pods-MediastreamTrackeriOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MediastreamTrackeriOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediastreamTrackeriOS_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		607FACE51AFB9204008FA782 /* MediastreamTrackeriOS_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediastreamTrackeriOS_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		96F6254A6872E6D9638A63CA /* MediastreamTrackeriOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MediastreamTrackeriOS.podspec; path = ../MediastreamTrackeriOS.podspec; sourceTree = "<group>"; };
+		96F6254A6872E6D9638A63CA /* MediastreamTrackeriOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MediastreamTrackeriOS.podspec; path = ../MediastreamTrackeriOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EDE778CF5140836213A29AC /* Pods_MediastreamTrackeriOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MediastreamTrackeriOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8B5DAE477B42FDADDFAF42D /* Pods-MediastreamTrackeriOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediastreamTrackeriOS_Tests.release.xcconfig"; path = "Target Support Files/Pods-MediastreamTrackeriOS_Tests/Pods-MediastreamTrackeriOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CA3BEC399780AB6FBAC12E33 /* Pods-MediastreamTrackeriOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediastreamTrackeriOS_Example.release.xcconfig"; path = "Target Support Files/Pods-MediastreamTrackeriOS_Example/Pods-MediastreamTrackeriOS_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -147,7 +147,6 @@
 				1FA5211EE9F679675535118C /* Pods-MediastreamTrackeriOS_Tests.debug.xcconfig */,
 				C8B5DAE477B42FDADDFAF42D /* Pods-MediastreamTrackeriOS_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
