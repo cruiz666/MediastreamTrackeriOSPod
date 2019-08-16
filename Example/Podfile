@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MediastreamTrackeriOS_Example' do
+  pod 'MediastreamTrackeriOS', :path => '../'
+
+  target 'MediastreamTrackeriOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
